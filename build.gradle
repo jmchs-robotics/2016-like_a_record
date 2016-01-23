@@ -7,7 +7,7 @@ buildscript {
 	}
   }
   dependencies {
-    classpath group: 'jaci.openrio.gradle', name: 'GradleRIO', version: '+'			//Change this line if you wish to Update GradleRIO
+    classpath group: 'jaci.openrio.gradle', name: 'GradleRIO', version: '+', classifier: 'Toast'
   }
 }
 
@@ -22,6 +22,18 @@ sourceSets {
       srcDir 'LikeARecord/src'
     }
   }
+}
+
+repositories {
+  jcenter()
+  maven {
+    name = "Toast"
+    url = "http://dev.imjac.in/maven"
+  }
+}
+
+dependencies {
+  compile group: 'jaci.openrio.toast', name: 'Toast', version: '+'
 }
 
 gradlerio.robotClass = "org.usfirst.frc.frc5933.LikeARecord.Robot"
