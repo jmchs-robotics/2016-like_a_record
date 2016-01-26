@@ -36,7 +36,7 @@ dependencies {
   compile group: 'jaci.openrio.toast', name: 'Toast', version: '+'
 }
 
-gradlerio.robotClass = "org.usfirst.frc.frc5933.LikeARecord.Robot"
+gradlerio.robotClass = 'org.usfirst.frc5933.LikeARecord.Robot'
 gradlerio.team = "5933" // JudgeMent Call
 
 def robotManifest = {
