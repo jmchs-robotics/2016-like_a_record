@@ -1,4 +1,4 @@
-package org.usfirst.frc5933.motors;
+package frc.team5933.motors;
 
 import edu.wpi.first.wpilibj.Joystick;
 import edu.wpi.first.wpilibj.RobotDrive;

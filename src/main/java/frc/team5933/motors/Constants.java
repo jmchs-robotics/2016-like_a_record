@@ -1,4 +1,4 @@
-package org.usfirst.frc5933.motors;
+package frc.team5933.motors;
 
 public class Constants {
 
